@@ -120,7 +120,7 @@ private class IntermediateStrings_Test
     @isTest
     static void testFindAverageWordLength3()
     {
-        System.assertEquals(5.5, 
+        System.assertEquals(4.4, 
                 IntermediateStrings.FindAverageWordLength('Shine on you crazy diamond'));
     }
 
