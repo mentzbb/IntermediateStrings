@@ -1,5 +1,7 @@
 # Intermediate Strings Mentz Challenge
 
+THIS IS A DRAFT CHALLENGE - YOU CAN WORK ON IT, BUT IT MAY CHANGE UNDER YOU
+
 ## About
 For an overview of Mentz, see the [Blog Post](http://bobbuzzard.blogspot.com/2019/05/introducing-mentz-salesforce-developer.html)
  
