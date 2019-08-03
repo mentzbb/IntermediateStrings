@@ -88,6 +88,14 @@ private class IntermediateStrings_Test
                 IntermediateStrings.AreBracketsBalanced('{{[((()))}}'));
     }
 
+
+    @isTest
+    static void testAreBracketsBalancedWithWords()
+    {
+        System.assertEquals(false, 
+                IntermediateStrings.AreBracketsBalanced('(hello)(y(e(s){no}))(good{by(e)}eee)'));
+    }
+    
     @isTest
     static void testAreBracketsBalancedFailFirst()
     {
