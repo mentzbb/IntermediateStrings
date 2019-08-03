@@ -1,5 +1,8 @@
-// For all methods in this class, punctuation equals the following
-// characters - ,.!?
+// For all methods in this class:
+//   punctuation equals the following characters - ,.!?
+//   the parameter will never be null
+//   the strings will only contain uppercase, lowercase and punctuation characters
+
 public with sharing class IntermediateStrings 
 {
     // Finds the longest word in the supplied sentence, excluding 
