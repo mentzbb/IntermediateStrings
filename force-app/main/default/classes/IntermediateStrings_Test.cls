@@ -82,6 +82,13 @@ private class IntermediateStrings_Test
     }
 
     @isTest
+    static void testAreBracketsBalancedFail3()
+    {
+        System.assertEquals(false, 
+                IntermediateStrings.AreBracketsBalanced('{(()})'));
+    }
+
+    @isTest
     static void testAreBracketsBalancedWithSquare()
     {
         System.assertEquals(true, 
